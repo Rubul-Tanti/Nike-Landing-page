@@ -19,6 +19,7 @@ const CustumerReview = () => {
       <p className='flex gap-2 mt-10 font-montserrat text-slate-gray text-xl '><img src={star}/>({ reviews.rating})</p>
       <div className='font-monteserrat text-3xl font-bold '>{reviews.customerName}</div>
     </div>
+    
   ))}
 
 </div>
